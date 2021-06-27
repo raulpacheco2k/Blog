@@ -1,0 +1,1 @@
+Como medir o trabalho de um testador?
