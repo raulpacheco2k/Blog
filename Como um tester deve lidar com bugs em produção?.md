@@ -2,8 +2,6 @@
 
 Acredito que a frase que um testador, no seu início de carreira, mais teme é: “quebrou em produção”, de fato não é nada bom! Porem, ao passar do tempo aprendemos a lidar com a frase e, além disso, aprendemos que isso é inevitável, cedo ou tarde irá quebrar em produção, por isso existimos, para minimizar os impactos dos bugs e diminuir os riscos de lançamentos. *Inclusive a inevitabilidade de ocorrer bugs em produção é um dos fundamentos de teste de software, é simplesmente normal que ocorra bugs em produção.*
 
-Acredito que a frase que um testador, no seu início de carreira, mais teme é: “quebrou em produção”, de fato não é nada bom! Porem, ao passar do tempo aprendemos a lidar com a frase e, além disso, aprendemos que isso é inevitável, cedo ou tarde irá quebrar em produção, por isso existimos, para minimizar os impactos dos bugs e diminuir os riscos de lançamentos. *Inclusive a inevitabilidade de ocorrer bugs em produção é um dos fundamentos de teste de software, é simplesmente normal.*
-
 #### Mas como devemos reagir a bugs em produção?
 
 Encarre o bug em produção como uma oportunidade. É compreensível que seja difícil pensar desta forma, ainda mais quando você ocupa um cargo de importante na organização, mas não há outra forma de pensar a não ser essa sem deixar o ambiente tóxico. Encarre os bugs que ocorrem em produção como uma oportunidade de fazer melhor! É maravilhoso quando encontramos os bugs no ambiente de sandbox e podemos reportar-lós no backlog e avisar os stakeholders, no entanto, já sabemos que exceções ocorrem e devemos estar preparados para solucionar com agilidade e destreza.
