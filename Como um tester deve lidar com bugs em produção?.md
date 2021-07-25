@@ -18,7 +18,9 @@ Uma boa estratégia de teste é fundamental para o sucesso de um produto, além 
 
 Por mais que pareça que seja um retrabalho, isso ajuda a fortalecer a empatia entre as equipes, além disso quando o time fica maduro o suficiente e temos testes automatizados validando as entradas possíveis os testadores não precisa alocar a grande parte do seu tempo testando entrada com múltiplos 9 para avaliar se a aplicação vai quebrar por coisa que poderia ter sido prevenida antes que a tarefa chegasse até a fila de teste, quando temos o cenário em que o testador não precise alocar muito tempo em smoke testing, este pode estar implementando testes mais complexos e robustos na aplicação, afim de realmente avaliar como a aplicação se comporta com um cenário desenhado especificamente para quebrar a aplicação.
 
-Alguns testadores, incluindo o meu início como testador, ficam frustados quando seus colegas, ou ele próprio vai testar uma parte do sistema que já havia sido validada anteriormente e acabam achando novos bugs que não surgiram por novas implementações, elas estavam simplesmente mascaradas até então. Achar bugs em uma segunda bateria de teste ou no teste de regressão é melhor que em produção! Penso que nem precisaria falar isso, mas infelizmente isso ocorre e devemos tratar do assunto. Ninguém é perfeito, incluindo o software, erros são bem-vindos, desde que aprendermos com eles. Cabeças diferentes, já passaram por situações diferentes por consequência pensam diferente, consequentemente testam diferente e acham bugs diferentes.
+Alguns testadores, incluindo o meu início como testador, ficam frustados quando seus colegas, ou ele próprio vai testar uma parte do sistema que já havia sido validada anteriormente e acabam achando novos bugs que não surgiram por novas implementações, elas estavam simplesmente mascaradas até então. Achar bugs em uma segunda bateria de teste ou no teste de regressão é melhor que em produção! Penso que nem precisaria falar isso, mas infelizmente isso ocorre e devemos tratar do assunto. Ninguém é perfeito, incluindo o software. Cabeças diferentes, já passaram por situações diferentes por consequência pensam diferente, consequentemente testam diferente e acham bugs diferentes.
+
+Erros são bem-vindos, desde que possamos aprender com eles.
 
 Quando identificar um bug nunca fique omisso em relação ao bug afim de querer passar uma falsa ideia do produto está seguro, essa atitude demostra imaturidade, reporte-o e o adicione ao seu conjunto de testes para que não volte a aparecer.
 
@@ -29,4 +31,4 @@ Quando identificar um bug nunca fique omisso em relação ao bug afim de querer 
 2. Conscientizar o time a respeito da importância dos testes. 
 3. Caso não haja, implementar a cultura de teste. 
 4. Mostrar os resultados. 
-5. Erros são bem-vindos, desde que aprendermos com eles.
+5. Erros são bem-vindos, desde que possamos aprender com eles.
