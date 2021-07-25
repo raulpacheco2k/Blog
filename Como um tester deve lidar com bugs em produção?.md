@@ -26,7 +26,7 @@ Quando identificar um bug nunca fique omisso em relação ao bug afim de querer 
 
 É essencial que quando a aplicação for para produção podemos rastrear as falhas ocorridas antes mesmo dos usuários reportar, para isso temos [ferramentas de monitoramento e rastreamento de erros](https://flatlogic.com/blog/10-best-error-monitoring-and-error-tracking-tools/) que nos auxiliam no processo.
 
-#### Então, resumidamente o que devemos fazer lidar com bugs em produção é:
+#### Então, resumidamente o que devemos fazer para lidar com bugs em produção é:
 1. Saber que cedo ou tarde irá ocorrer. 
 2. Conscientizar o time a respeito da importância dos testes. 
 3. Caso não haja, implementar a cultura de teste. 
