@@ -30,5 +30,5 @@ Quando identificar um bug nunca fique omisso em relação ao bug afim de querer 
 1. Saber que cedo ou tarde irá ocorrer. 
 2. Conscientizar o time a respeito da importância dos testes. 
 3. Caso não haja, implementar a cultura de teste. 
-4. Mostrar os resultados. 
+4. Mostre os resultados. 
 5. Erros são bem-vindos, desde que possamos aprender com eles.
