@@ -26,7 +26,7 @@ Quando bugs ocorrem em produção, algumas vezes o peso cai nas costas do time d
 
 #### O objetivo de encontrar bugs não é culpar ninguém, mas melhorar a qualidade do produto.
 
-Quando é apontado o dedo ao time de teste e dito: é culpa de vocês. Esta situação, além de deixar o ambiente tóxico, é sem dúvida prejudicial à saúde mental, desanimando e fazendo com que os testadores duvidem de sua própria capacidade. É simplesmente contraproducente, devemos focar no que deve realizado para solucionar o problema e evitar que se repita no futuro e não quem é responsável pelo que aconteceu.
+Quando é apontado o dedo ao time de teste e dito: é culpa de vocês. Esta situação, além de deixar o ambiente tóxico, é sem dúvida prejudicial à saúde mental, desanimando e fazendo com que os testadores duvidem de sua própria capacidade. É simplesmente contraproducente, devemos focar no que deve ser realizado para solucionar o problema e evitar que se repita no futuro e não quem é responsável pelo que aconteceu.
 
 Quando estamos trabalhando em uma empresa com uma cultura que não dê o devido valor aos testes, devemos jogar com os números ao nosso favor, podemos criar uma apresentação para a equipe de desenvolvimento mostrando alguns números de como a implementação de teste diminui a quantidade de bugs reportados em produção em empresas do mesmo porte e/ou segmento, desta forma comprovamos por A + B que as coisas tendem a melhorar no médio/longo prazo se adicionarmos um fluxo de testes robusto com pipelines de CI/CD, análise estática de código, build, etc. Isto não irá somente diminuir o número de bugs críticos que poderiam ser evitados antes mesmo da funcionalidade chegar até as mãos de um testador como também vai diminuir a dor de cabeça da equipe e o time não irá precisar fazer horas extras para apagar incêndio. Se você já trabalha algum tempo na organização elabore um relatório de quantos bugs já foram reportados e qual seria o impacto desses bugs caso acontecesse em produção.
 
@@ -40,7 +40,7 @@ Alguns testadores, incluindo o meu início como testador, ficam frustrados quand
 
 Quando identificar um bug nunca fique omisso para passar uma falsa ideia do produto está seguro, essa atitude demostra imaturidade, reporte-o e o adicione ao seu conjunto de testes para que não volte a aparecer. Se, por algum motivo, você não se sente confortável em comunicar o seu time que há um bug em produção por conta da reação dos integrantes você deveria repensar sobre a empresa que você trabalha, talvez, a cultura não seja das melhores.
 
-Além de solucionar o problema, procure a causa raiz, o que originou o bug, para chegarmos a causa raiz podemos trabalhar com algumas ferramentas da qualidade, como, por exemplo, os 5 porquês. Investigue até ter uma resposta para o que ocasionou o bug.
+Além de solucionar o problema, procure a causa raiz, o que originou o bug, para chegarmos a causa raiz podemos trabalhar com algumas ferramentas da qualidade, como, por exemplo, os 5 porquês. Investigue até ter uma resposta sobre o que ocasionou o bug.
 
 Provável que para testadores sênior já seja comum, mas para nós meros mortais devemos além de testar somente feature, devemos nós certificarmos que seja possível realizar um rollback no banco de dados sem causar estragos as informações que já estavam lá anteriormente. 
 
