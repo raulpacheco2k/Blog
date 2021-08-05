@@ -1,6 +1,6 @@
 # Como um tester deve lidar com bugs em produção?
 
-Acredito que a frase que um testador, no seu início de carreira, mais teme é: “quebrou em produção”, de fato não é nada bom! Porem, ao passar do tempo aprendemos a lidar com a frase e, além disso, aprendemos que isso é inevitável, cedo ou tarde irá quebrar em produção, por isso existimos, para minimizar os impactos dos bugs e diminuir os riscos de lançamentos. *Inclusive a inevitabilidade de ocorrer bugs em produção é um dos fundamentos de teste de software.*
+Acredito que a frase que um testador, no seu início de carreira, mais teme é: “quebrou em produção”, de fato não é nada bom! Porem, ao passar do tempo aprendemos a lidar com a frase e, além disso, aprendemos que isso é inevitável, cedo ou tarde irá quebrar em produção, por isso existimos, para minimizar os impactos dos bugs e diminuir os riscos de lançamentos. *A inevitabilidade de ocorrer bugs em produção é um dos fundamentos de teste de software.*
 
 > Ninguém na breve história da computação jamais escreveu um software perfeito. É improvável que você seja o primeiro. - Andy Hunt
 
@@ -42,6 +42,8 @@ Quando identificar um bug nunca fique omisso para passar uma falsa ideia do prod
 
 Além de solucionar o problema, procure a causa raiz, o que originou o bug, para chegarmos a causa raiz podemos trabalhar com algumas ferramentas da qualidade, como, por exemplo, os 5 porquês. Investigue até ter uma resposta para o que ocasionou o bug.
 
+Provável que para testadores sênior já seja comum, mas para nós meros mortais devemos além de testar somente feature, devemos nós certificarmos que seja possível realizar um rollback no banco de dados sem causar estragos as informações que já estavam lá anteriormente. 
+
 É essencial que quando a aplicação for para produção podemos rastrear as falhas ocorridas antes mesmo dos usuários reportar, para isso temos [ferramentas de monitoramento e rastreamento de erros](https://flatlogic.com/blog/10-best-error-monitoring-and-error-tracking-tools/) que nos auxiliam no processo.
 
 #### Então, resumidamente o que devemos fazer para lidar com bugs em produção é:
@@ -50,8 +52,6 @@ Além de solucionar o problema, procure a causa raiz, o que originou o bug, para
 3. Caso não haja, implementar a cultura de teste.
 4. Mostre os resultados obtidos através dos testes.
 5. Erros são bem-vindos, desde que possamos aprender com eles.
-6. Certifique-se de que sua rollback funcione.
-7. Teste os backups.
-8. Planeje os lançamentos de modo que não introduzam mudanças irreversíveis, como, por exemplo, migrações do banco.
+6. Certifique-se que o rollback irá funcionar quando necessário.
 
-É da essência niilista do ser humano maximizar as coisas ruins que acontecem e minimizar as coisas boas. Acredite no seu trabalho.
+É da essência niilista do ser humano maximizar as coisas ruins que acontecem, não se deixe abater, continue se profissionalizando e acredite no seu trabalho.
