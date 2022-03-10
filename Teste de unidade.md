@@ -24,4 +24,20 @@ Bem, como vimos, tem algumas definições e fica a cargo do time escolher qual a
 
 Porém, é algo que adequamos a necessidade do time de desenvolvimento. Não é algo imutável.
 
-### Meu teste de unidade pode depender de outras unidades?
+## Testes solitários ou sociavéis?
+Em um cenário que você tem uma classe para tratar os fretes do seu e-commerce e um dos métodos desta classe recebe como parâmetro uma classe de usuário, onde será consultado o endereço, sendo essa uma outra classe, para realizar o cálculo do frete automaticamente quando um usuário acessa a tela de um produto.
+
+Ai você se pergunta, para realizar os testes de unidade da minha classe de frete, devo também instanciar cliente e endereço? E se tiver um bug nessas outras classes, meu teste de frete vai falhar!
+
+Para essa situação temos duas possiveis solução:
+1. Utilizar testes solitários, usar dublês de teste.
+2. Utilizar testes sociavéis, não usar dublês de teste.
+
+Tudo isso é algo que deve ser negociado com o time, tendo em vista o seu cenário.
+
+Em um outro cenário em que sua aplicação é responsável unica e exclusivamente por realizar o calculo do frete e os dados do cliente é por responsabilidade de uma empresa terceira que vem até você por meio de uma API, faz sentido ficarmos "reféns" do bom funcionamento de um outro software? Acredito que não. Neste caso devemos utilizar dublês de testes.
+
+## Vantagens de testes de unidade antecipado
+## Quanto de testes de unidade é o sufiente
+## Praticas de cobertura de teste de unidade
+## Tamanho dos testes de unidade
