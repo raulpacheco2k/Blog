@@ -39,7 +39,7 @@ Já no caso de quando dependemos da resposta de um outro software devemos utiliz
 
 Por isso digo, novamente, isso são coisas que devem ser definidas com o time considerando os planos de curto a longo prazo. 
 
-## Principais diferenças dos testes sociáveis e solitários
+### Principais diferenças dos testes sociáveis e solitários
 
 | Sociáveis | Solitários |
 | :---: | :---: |
@@ -49,6 +49,7 @@ Por isso digo, novamente, isso são coisas que devem ser definidas com o time co
 | Menor necessidade de mocks. | Maior necessidade de mocks. |
 | Todas as classes dependentes também precisam ser instanciadas com suas próprias dependências. | Utiliza apenas os mocks da classe que é dependência para teste. |
 | Mais lento para executar e escrever, e consequentemente mais caros. | Mais rápido para executar e escrever, e consequentemente mais baratos. |
+|É necessário repetir a mesma configuração do ambiente de teste necessário várias vezes dentro da sua classe de teste. | Você terá muito menos repetição e duplicação nos testes, pois é verificado o comportamento desejado diretamente.|
 
 ## Vantagens de testes de unidade antecipado
 ## Quanto de testes de unidade é o sufiente
