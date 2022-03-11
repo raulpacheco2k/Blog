@@ -24,7 +24,7 @@ Bem, como vimos, tem algumas definições e fica a cargo do time escolher qual a
 
 Porém, é algo que adequamos a necessidade do time de desenvolvimento. Não é algo imutável.
 
-## Testes solitários ou sociáveis?
+## Testes sociáveis ou solitários?
 Em um cenário que você tem uma classe para tratar os fretes do uma loja de varejo e um dos métodos desta classe recebe como parâmetro uma classe de usuário, onde será consultado o endereço, sendo essa outra classe, para realizar o cálculo do frete automaticamente quando um usuário acessa a tela de um produto. Para realizar os testes de unidade na classe de frete, devo também instanciar cliente e endereço? E se tiver um bug nessas outras classes? Meu teste do frete vai falhar!
 
 Em outro cenário em que sua aplicação é responsável única e exclusivamente por realizar o cálculo do frete, sendo que os dados do endereço a ser realizado o cálculo do frete chega até você por uma API que é de responsabilidade de uma empresa terceira, faz sentido ficarmos "reféns" do bom funcionamento de outro software? E se tiver um bug no outro software? Meu teste do frete vai falhar!
@@ -39,7 +39,17 @@ Já no caso de quando dependemos da resposta de um outro software devemos utiliz
 
 Por isso digo, novamente, isso são coisas que devem ser definidas com o time considerando os planos de curto a longo prazo. 
 
-## Principais diferenças dos testes solitários e sociáveis
+## Principais diferenças dos testes sociáveis e solitários
+
+| Sociáveis | Solitários |
+| :---: | :---: |
+| Cobertura mais ampla. | Cobertura menos ampla. |
+| Arquivos de testes longos. | Arquivos de testes enxutos. |
+| Acoplado. | Desacoplado. |
+| Menor necessidade de mocks. | Maior necessidade de mocks. |
+| Todas as classes dependentes também precisam ser instanciadas com suas próprias dependências. | Utiliza apenas os mocks da classe que é dependência para teste. |
+| Mais lento para executar e escrever, e consequentemente mais caros. | Mais rápido para executar e escrever, e consequentemente mais baratos. |
+
 ## Vantagens de testes de unidade antecipado
 ## Quanto de testes de unidade é o sufiente
 ## Praticas de cobertura de teste de unidade
