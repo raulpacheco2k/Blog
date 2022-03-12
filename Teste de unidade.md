@@ -30,8 +30,8 @@ Em um cenário que você tem uma classe para tratar os fretes do uma loja de var
 Em outro cenário em que sua aplicação é responsável única e exclusivamente por realizar o cálculo do frete, sendo que os dados do endereço a ser realizado o cálculo do frete chega até você por uma API que é de responsabilidade de uma empresa terceira, faz sentido ficarmos "reféns" do bom funcionamento de outro software? E se tiver um bug no outro software? Meu teste do frete vai falhar!
 
 Para essa situação temos duas possiveis solução:
-1. Utilizar testes solitários, usar dublês de teste.
-2. Utilizar testes sociavéis, não usar dublês de teste.
+1. Utilizar testes solitários, usar dublês de teste. (Estilo mockista) 
+2. Utilizar testes sociavéis, não usar dublês de teste. (Estilo clássico)
 
 Talvez no início, no pontapé inicial, das escritas dos testes automatizados deixar 100% desacoplado pode ser desvantajoso, pois, com testes sociais alcançaremos um coverage maior. Então, quando se sentirmos confiantes em relação aos códigos já cobertos, alterando as dependências para mocks. Claro, existe a questão do acoplamento e talvez não seja interessante em determinado contexto módulos diferentes acoplados entre si pelos testes. Tudo isso é algo que deve ser negociado com o time, tendo em vista o seu cenário.
 
@@ -51,7 +51,10 @@ Por isso digo, novamente, isso são coisas que devem ser definidas com o time co
 | Mais lento para executar e escrever, e consequentemente mais caros. | Mais rápido para executar e escrever, e consequentemente mais baratos. |
 |É necessário repetir a mesma configuração do ambiente de teste necessário várias vezes dentro da sua classe de teste. | Você terá muito menos repetição e duplicação nos testes, pois é verificado o comportamento desejado diretamente.|
 
+>  Não achamos difícil rastrear a falha real, mesmo que ela tenha causado falhas nos testes vizinhos. Portanto, sentimos que permitir que nossos testes fossem sociáveis ​​não levou a problemas na prática. [...] Hoje eu conheço e respeito testadores de xunit de ambos os estilos (pessoalmente eu fiquei com o estilo clássico). [...] De fato, alguns testadores xunit classicistas também argumentam que qualquer colaboração com recursos externos, como um banco de dados ou sistema de arquivos, deve usar doubles - Martin Fowler
+
 ## Vantagens de testes de unidade antecipado
+
 ## Quanto de testes de unidade é o sufiente
 ## Praticas de cobertura de teste de unidade
 ## Tamanho dos testes de unidade
