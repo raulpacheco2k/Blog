@@ -22,6 +22,27 @@ As maiores diferenças entre as definições é sobre o que é a menor parte pos
 
 Bem, como vimos, tem algumas definições e fica a cargo do time escolher qual a melhor definição para o contexto da solução. A programação orientada a objetos trata a unidade como uma classe, já em abordagens procedurais ou funcionais consideraram uma única função como uma unidade. 
 
+Dada uma classe conta corrente que cobra uma taxa de 5% por transação, onde 1 significa 100% (sem taxa, ou seja, o capital transacionado) e 1.05 significa 105% (5% de taxa em cima do capital transacionado).
+```java
+public class CurrentAccount extends BankAccount implements Taxation {
+
+    public double getWithdrawalFee() {
+        return 1.05;
+    }
+}
+```
+
+Este teria o teste para validar se o banco não estaria dando desconto na transação com uma taxa negativa.
+```java
+public class CurrentAccountTest {
+
+    @Test
+    public void feeValueMustBePositive() {
+        Assert.assertTrue(this.currentAccount.getWithdrawalFee() > 1);
+    }
+}
+```
+
 Porém, é algo que adequamos a necessidade do time de desenvolvimento. Não é algo imutável.
 
 ## Testes sociáveis ou solitários?
