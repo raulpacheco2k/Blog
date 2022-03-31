@@ -32,7 +32,7 @@ public class CurrentAccount extends BankAccount implements Taxation {
 }
 ```
 
-Este teria o teste para validar se o banco não estaria dando desconto na transação com uma taxa negativa.
+Este seria o teste para validar se o banco não estaria dando desconto na transação com uma taxa negativa.
 ```java
 public class CurrentAccountTest {
 
