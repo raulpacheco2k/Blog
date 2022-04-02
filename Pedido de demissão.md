@@ -1,3 +1,5 @@
+# Pedido de demissão
+
 Quando o #sim chega é um momento de euforia e um sentimento de gratidão muito grande, mas, esse é só o primeiro passo.
 
 O segundo é você comunicar aos seus superiores o pedido de demissão e muitas vezes essa parte é dolorida, como dito na imagem, ainda mais quando você gosta das pessoas que trabalha.
