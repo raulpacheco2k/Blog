@@ -6,3 +6,4 @@
 4. [O cliente pode ser o Product Owner?](https://github.com/raulpacheco2k/Artigos/blob/main/O%20cliente%20pode%20ser%20o%20Product%20Owner%3F.md)
 5. [BDD](https://github.com/raulpacheco2k/Artigos/blob/main/BDD.md)
 6. [Qualidade de Software](https://github.com/raulpacheco2k/Artigos/blob/main/Qualidade%20de%20Software.md)
+7. [Seletores](https://github.com/raulpacheco2k/Artigos/blob/main/Seletores.md)
